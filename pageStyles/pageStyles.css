@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+
+
+.navigation {
+    background-color:  #f6f4d1;
+    border-radius: 2rem 4rem 2rem 4rem;
+    margin-top: -1.5rem;
+}
+
+.nav-head {
+    padding: 1.2rem;
+    font-size: 2.5rem;
+    color: #20d140;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.navigation ul {
+    text-align: right;
+    padding: 1rem;
+    margin-top: -4rem;
+}
+
+.nav-list {
+    display: inline;
+    padding: 0.5rem;  
+}
+
+.link:hover {
+    color : #070205;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 0.3rem;
+    color : #111827;
+}
+
+.active-link {
+    font-weight: bold;
+}
+
+.quiz-main, .isTriangle-main, .hypotenuse-main, .area-main {
+    text-align: center;
+  
+}
+
+.radio-link:hover {
+    color: #060405;
+}
+
+.isTriangle-label, .hypotenuse-label, .area-label, .sides, .angles-input, 
+.btn-isTriangle, .btn-quiz, .btn-hypotenuse, .btn-area {
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+}    
+
+.angles-input, .sides {
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.btn-quiz, .btn-isTriangle, .btn-hypotenuse, .btn-area {
+    padding: 0.7rem;
+    background-color: #b2f880a3;
+    cursor: pointer;
+}
+.quiz-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+    text-align: left;
+}
+
+td {
+    padding: 0 20px;
+}
+
+.quiz-options {
+    text-align: left;
+    display: block;
+}
+
+input[type=radio] {
+    width: 5%;
+}
+
+.outputQuiz, .outputIsTriangle, .outputHypotenuse, .outputArea {
+    font-size: 2rem;
+}
+
+.footer {
+    background-color: #b2f880a3;
+    border-radius: 2rem 4rem 2rem 4rem;
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+.footer ul {
+    padding-inline-start: 0rem;
+}
+
+.footer-head {
+    font-size: 1.5rem;
+    padding: 0.5rem
+}
+
+.social-links {
+    display: inline;
+    padding: 0.5rem;
+}
+

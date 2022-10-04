@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Fun with triangles</title>
+    <link href="/pageStyles/pageStyles.css" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="navigation">
+        <h1 class="nav-head">Fun with Triangles</h1>
+        <ul>
+            <li class="nav-list">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="nav-list active-link">
+                <a class="link" href="/pages/quiz.html">Quiz</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/isTriangle.html">Is Triangle?</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="nav-list">
+                <a class="link" href="/pages/area.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="quiz-main">
+        <h1>Quiz on Triangles</h1>
+        <h3>For each correct answer you will be awarded 1 point</h3>
+        <form class="quiz-form" id="quiz-form">
+            <table class="quiz-table">
+                <tr>
+                    <td>
+                        What is the third angle for the triangle where angle1 = 45° and
+                        angle2 = 45°?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question1" value="45°">45°</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question1" value="90°">90°</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question1" value="60°">60°</label>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        What is the third angle for the triangle where angle1 = 45° and
+                        angle2 = 45°?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question2" value="obtuse" />Obtuse</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question2" value="acute" />Acute</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question2" value="right angled" />Right angled</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        A triangle can have
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question3" value="one right angle">one right angle</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question3" value="two right angles">two right angles</label>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        Which of the following can form a right angled triangle?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question4" value="14, 15, 26" />14, 15, 26</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question4" value="12, 16 20" />12, 16, 20</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Which of the following triangles are always similar?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question5" value="Equilateral triangle">Equilateral triangle</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question5" value="Isosceles triangle">Isosceles triangle</label>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        If one angle of a triangle is obtuse, then which one of the
+                        following is the possible measure of remaining angles?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question6" value="100°" />100°</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question6" value="85°" />85°</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        If the largest angle in a triangle is 70°, what is the least
+                        possible value of the smallest angle of the triangle?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question7" value="30°">30°</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question7" value="10°">10°</label>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        The perimeter of scalene triangle with sides a, b, c is
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question8" value="a + b + c" />a + b + c</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question8" value="2a" />2a</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question8" value="none of these" />None of these</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        A scalene triangle has ___ lines of symmetry
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question9" value="2">2</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question9" value="no">no</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question9" value="15">15</label>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        There is a right triangle PQR where: angle Q = 90°; angle P = angle
+                        R. What is the measure of angles P and R?
+                        <ul>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question10" value="85°" />85°</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question10" value="65°" />65°</label>
+                            </li>
+                            <li class="quiz-options">
+                                <label class="radio-link"><input type="radio" required name="question10" value="45°" />45°</label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>               
+        </form>
+        <button class="btn-quiz link" id="btn-quiz">Calculate score</button>
+        <div class="outputQuiz" id="output-quiz"></div>
+    </main>
+    
+    <footer class="footer">
+        <p class="footer-head">2022 | Satyam Shah</p>
+        <ul>
+            <li class="social-links">
+                <a href="https://github.com/satyamshah"><img src="/images/github.svg"></a>
+            </li>
+            <li class="social-links">
+                <a href="https://www.linkedin.com/in/satyam-shah-538269152/"><img src="/images/linkedin.svg"></a>                
+            </li>
+            <li class="social-links">
+                <a href="https://twitter.com/satyams12084157"><img src="/images/twitter.svg"></a>                
+            </li>
+        </ul>
+    </footer>
+    <script src="/scripts/quiz.js" type="text/javascript"></script>
+</body>
+</html>
