@@ -16,9 +16,16 @@ function ClearFields() {
 
 hypotenuseButton.addEventListener("click", function findHypotenuseHandler() {
     if(Number(base.value) && Number(height.value)) {
-        var sumOfSquare = sum(Number(base.value), Number(height.value))
+        if(Number(base.value)>0 && Number(height.value)>0)
+        {
+            var sumOfSquare = sum(Number(base.value), Number(height.value))
     var hypotenuse = Math.sqrt(sumOfSquare);
     showMessage("The length of hypotenuse is "+ hypotenuse)
+        }
+        else
+        {
+            showMessage("Enter the correct value of base/height")
+        }
     } else {
         showMessage("Enter both the values")
     }

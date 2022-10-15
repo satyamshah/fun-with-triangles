@@ -18,17 +18,26 @@ function ClearFields() {
 }
 
 areaButton.addEventListener("click", function findAreaHandler() {
-    if(Number(sidesOfTriangle[0].value) && Number(sidesOfTriangle[1].value) && Number(sidesOfTriangle[2].value)) {
-        var sum = sumOfSides(Number(sidesOfTriangle[0].value), 
-                         Number(sidesOfTriangle[1].value), 
-                         Number(sidesOfTriangle[2].value))
-        sum = semiPerimeter(sum)
-        var sub1 = subOfSides(sum, Number(sidesOfTriangle[0].value))
-        var sub2 = subOfSides(sum, Number(sidesOfTriangle[1].value))
-        var sub3 = subOfSides(sum, Number(sidesOfTriangle[2].value))
-        var mul = mulOfSub(sum, sub1, sub2, sub3)
-        var area = Math.sqrt(mul)
-        showMessage("The area of triangle is " + area)
+  if(Number(sidesOfTriangle[0].value) && Number(sidesOfTriangle[1].value) && Number(sidesOfTriangle[2].value)) 
+    {
+        if(Number(sidesOfTriangle[0].value)>0 && Number(sidesOfTriangle[1].value)>0 && Number(sidesOfTriangle[2].value)>0)
+        {
+            var sum = sumOfSides(Number(sidesOfTriangle[0].value), 
+            Number(sidesOfTriangle[1].value), 
+            Number(sidesOfTriangle[2].value))
+sum = semiPerimeter(sum)
+var sub1 = subOfSides(sum, Number(sidesOfTriangle[0].value))
+var sub2 = subOfSides(sum, Number(sidesOfTriangle[1].value))
+var sub3 = subOfSides(sum, Number(sidesOfTriangle[2].value))
+var mul = mulOfSub(sum, sub1, sub2, sub3)
+var area = Math.sqrt(mul)
+showMessage("The area of triangle is " + area)
+        }
+        else
+        {
+            showMessage("Please enter the correct length");
+        }
+       
     } else {
         showMessage("Enter the lengths of all sides")
     }
